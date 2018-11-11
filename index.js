@@ -2,7 +2,7 @@
 function theBeatlesPlay(mus, inst){
   let arr = [];
   for(let i = 0; i < mus.length; i++){
-    arr.push(`${mus[i]} Lennon plays ${inst[i]}`);
+    arr.push(`${mus[i]} plays ${inst[i]}`);
   }
   return arr;
 }
